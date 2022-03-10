@@ -1,8 +1,8 @@
 @import '~bulma/bulma.sass';
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-@import 'navbar';
-@import 'home';
+@import './navbar.scss';
+@import './home.scss';
 
 // .dh-section {
 //   display: flex;
