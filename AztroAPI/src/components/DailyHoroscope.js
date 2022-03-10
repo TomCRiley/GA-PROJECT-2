@@ -2,8 +2,12 @@ import React from 'react';
 
 const DailyHoroscope = () => {
   return (
-    <section className='section'>
-      <div className='container'></div>
+    <section className='dh-section'>
+      <div className='dh-container'>
+        <div className='dh-yesterday'>Yesterday</div>
+        <div className='dh-today'>Today</div>
+        <div className='dh-tomorrow'>Tomorrow</div>
+      </div>
     </section>
   );
 };
