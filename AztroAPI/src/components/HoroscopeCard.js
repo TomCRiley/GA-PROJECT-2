@@ -2,19 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { getSingleSign } from '../lib/api';
 
-const HoroscopeCard = (
-  {
-    // sign,
-    // date_range,
-    // current_date,
-    // description,
-    // compatibility,
-    // mood,
-    // color,
-    // lucky_number,
-    // lucky_time,
-  }
-) => {
+const HoroscopeCard = () => {
   const [sign, setSign] = React.useState(null);
   const params = useParams();
   const { name } = params;
@@ -47,7 +35,7 @@ const HoroscopeCard = (
           <p>{sign?.current_date}</p>
           <p>{sign?.description}</p>
           <p>{sign?.compatibility}</p>
-          <p>{sign?.mood}</p>
+          <p>you're feeling....{sign?.mood}</p>
           <p>{sign?.color}</p>
           <p>{sign?.lucky_number}</p>
           <p>{sign?.lucky_time}</p>
