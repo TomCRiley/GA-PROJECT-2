@@ -1,6 +1,23 @@
 @import '~bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-.dh-section {
+// .dh-section {
+//   display: flex;
+//   justify-content: center;
+// }
+
+.dh-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: darkgrey;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 30px;
+}
+
+.dh-today {
+  font-family: 'Ultra', serif;
+  font-size: 40px;
+  color: wheat;
 }
