@@ -1,13 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import Image from '';
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar is-dark">
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
+// <<<<<<< css
+//       <nav className='navbar is-dark'>
+//         <div className='container'>
+//           <div className='navbar-brand'>
+//             {/* <img src='./assets/black-cat-logo-small.png' alt='black cat logo' /> */}
+//             <Link to='/' className='navbar-item'>
+// =======
+//       <nav className="navbar is-dark">
+//         <div className="container">
+//           <div className="navbar-brand">
+//             <Link to="/" className="navbar-item">
+// >>>>>>> main
               Home
             </Link>
             <Link to="/dailyhoroscope" className="navbar-item">
