@@ -40,26 +40,26 @@ const DailyHoroscope = () => {
     <div>
       <Dropdown
         handleClick={getRequestUrl}
-        formLabel="Choose a sign"
-        buttonText="Send sign"
-        action="/"
+        formLabel='Choose a sign'
+        buttonText='Send sign'
+        action='/'
         signs={signs}
       >
-        <option selected value="Click to see options" />
-        <option value="Aries" />
-        <option value="Taurus" />
-        <option value="Gemini" />
-        <option value="Cancer" />
-        <option value="Leo" />
-        <option value="Virgo" />
-        <option value="Libra" />
-        <option value="Scorpio" />
-        <option value="Sagittarius" />
-        <option value="Capricorn" />
-        <option value="Aquarius" />
-        <option value="Pisces" />
+        <option selected value='Click to see options' />
+        <option value='Aries' />
+        <option value='Taurus' />
+        <option value='Gemini' />
+        <option value='Cancer' />
+        <option value='Leo' />
+        <option value='Virgo' />
+        <option value='Libra' />
+        <option value='Scorpio' />
+        <option value='Sagittarius' />
+        <option value='Capricorn' />
+        <option value='Aquarius' />
+        <option value='Pisces' />
       </Dropdown>
-      <div className="card">
+      <div className='card'>
         <div>
           {!!horoscope && (
             <p>
@@ -107,13 +107,6 @@ const DailyHoroscope = () => {
         </div>
       </div>
     </div>
-    // <section className='dh-section'>
-    // <div className='dh-container'>
-    // <div className='dh-yesterday'>Yesterday</div>
-    // <div className='dh-today'>Today</div>
-    // <div className='dh-tomorrow'>Tomorrow</div>
-    // </div>
-    // </section>
   );
 };
 

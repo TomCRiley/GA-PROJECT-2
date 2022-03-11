@@ -11,7 +11,7 @@ const About = () => {
           <div className='picdiv'>
             <img id='Ana' src={ImageAna} alt='Ana'></img>
           </div>
-          <p>Ana is a Tristan's wannabe.</p>
+          <p>Ana is a Tristan wannabe.</p>
           <p>
             <a
               href='https://github.com/Mafalda-hub'

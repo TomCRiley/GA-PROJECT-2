@@ -10,8 +10,6 @@ export const getSingleSign = (sign) => {
   return axios.post(`${baseUrl}?sign=${sign}`);
 };
 
-//aztro.sameerkumar.website?sign= <sign> &day= <day>
-
 export const registerUser = (user) => {
   return axios.post(`${baseUrl}/register`, user);
 };
