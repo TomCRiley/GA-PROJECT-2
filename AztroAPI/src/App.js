@@ -7,6 +7,7 @@ import About from './components/About';
 import Register from './components/Register';
 import Login from './components/Login';
 import DailyHoroscope from './components/DailyHoroscope';
+import Footer from './components/Footer';
 
 function App() {
   return (
