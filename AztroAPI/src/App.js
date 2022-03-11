@@ -6,10 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Register from './components/Register';
 import Login from './components/Login';
-import HoroscopeCard from './components/HoroscopeCard';
 import DailyHoroscope from './components/DailyHoroscope';
-// import { Dropdown, Option } from './components/Dropdown';
-// import HoroscopeShow from './components/HoroscopeShow';
 
 function App() {
   return (

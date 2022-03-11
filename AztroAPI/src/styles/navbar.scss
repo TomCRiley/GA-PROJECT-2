@@ -2,9 +2,25 @@
   display: flex;
   justify-content: center;
   font-family: 'Ultra', serif;
-  background-color: rgba(14, 14, 40, 0.975);
+  background-color: rgba(243, 236, 227, 1);
 }
 
 .navbar-item {
-  color: rgb(222, 222, 222);
+  color: rgba(14, 14, 40, 0.975);
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.navbar-logo {
+  width: 10%;
+}
+
+#main-logo-image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }

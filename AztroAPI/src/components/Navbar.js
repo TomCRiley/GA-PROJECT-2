@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Image from '';
+import Image from '../assets/moon-image.png';
 
 const Navbar = () => {
   return (
     <header>
       <nav className='navbar'>
         <div className='navbar-brand'>
+          <div className='navbar-logo'>
+            <img src={Image} id='main-logo-image' alt='logo' />
+          </div>
           <Link className='navbar-item' to='/'>
             Home
           </Link>
