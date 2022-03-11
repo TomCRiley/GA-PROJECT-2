@@ -7,18 +7,17 @@ import About from './components/About';
 import Register from './components/Register';
 import Login from './components/Login';
 import DailyHoroscope from './components/DailyHoroscope';
-import Footer from './components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/dailyhoroscope' element={<DailyHoroscope />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/login' element={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dailyhoroscope" element={<DailyHoroscope />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         {/* <Route path="/horoscope/:name" element={<HoroscopeCard />} /> */}
         {/* <Route path="/horoscopeshow" element={<HoroscopeShow />} /> */}
       </Routes>
