@@ -1,10 +1,23 @@
 .navbar {
-  display: flex;
-  justify-content: center;
   font-family: 'Ultra', serif;
-  background-color: rgba(14, 14, 40, 0.975);
+  background-color: rgba(243, 236, 227, 1);
 }
 
 .navbar-item {
-  color: rgb(222, 222, 222);
+  color: rgba(14, 14, 40, 0.975);
+}
+
+.navbar-brand {
+  flex-shrink: 1;
+}
+
+.navbar-burger {
+  margin-top: 3.2rem;
+}
+
+.moon {
+  img {
+    width: 40%;
+    min-width: 250px;
+  }
 }

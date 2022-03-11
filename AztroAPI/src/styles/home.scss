@@ -1,5 +1,24 @@
-.flexdiv {
+.hero-background {
+  background-color: rgba(14, 14, 40, 0.975);
+}
+
+.container {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#main-title {
+  font-family: 'Ultra', serif;
+  font-size: 85px;
+  // margin-top: 50px;
+  color: rgb(249, 225, 148);
+}
+
+#main-tagline {
+  font-family: RomanaBT-Roman, Times New Roman, serif;
+  font-size: 40px;
+  color: ghostwhite;
+  // margin-top: ;
 }
