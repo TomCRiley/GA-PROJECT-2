@@ -16,12 +16,12 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/dailyhoroscope" element={<DailyHoroscope />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/horoscope/:name" element={<HoroscopeCard />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/dailyhoroscope' element={<DailyHoroscope />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='/login' element={<Login />} />
+        {/* <Route path="/horoscope/:name" element={<HoroscopeCard />} /> */}
         {/* <Route path="/horoscopeshow" element={<HoroscopeShow />} /> */}
       </Routes>
     </BrowserRouter>
