@@ -1,12 +1,39 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Image from '';
+import Image from '../assets/moon-image.png';
 
 const Navbar = () => {
+  const [openBurger, setOpenBurger] = React.useState(false);
+
+  const toggleBurgerMenu = () => {
+    setOpenBurger(!openBurger);
+  };
+
   return (
-    <header>
-      <nav className='navbar'>
-        <div className='navbar-brand'>
+    <nav className='navbar' role='navigation' aria-label='main navigation'>
+      <div className='navbar-brand'>
+        <div className='moon'>
+          <img src={Image} alt='logo' />
+        </div>
+
+        <a
+          role='button'
+          className='navbar-burger'
+          aria-label='menu'
+          aria-expanded='false'
+          data-target='navbarBasicExample'
+          href='#'
+          onClick={toggleBurgerMenu}
+        >
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+        </a>
+      </div>
+
+      <div className={openBurger ? 'navbar-menu is-active' : 'navbar-menu'}>
+        <div className='navbar-start'>
           <Link className='navbar-item' to='/'>
             Home
           </Link>
@@ -22,12 +49,9 @@ const Navbar = () => {
           <Link className='navbar-item' to='/login'>
             Login
           </Link>
-          {/* <Link to="horoscopeshow" >
-              Card
-            </Link> */}
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 };
 
