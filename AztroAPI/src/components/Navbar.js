@@ -22,9 +22,6 @@ const Navbar = () => {
           <Link className='navbar-item' to='/login'>
             Login
           </Link>
-          <Link className='navbar-item' to='/horoscope/:name'>
-            Card
-          </Link>
           {/* <Link to="horoscopeshow" >
               Card
             </Link> */}
