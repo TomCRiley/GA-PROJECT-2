@@ -1,0 +1,31 @@
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.picdiv {
+  width: 300px;
+}
+
+.Tom {
+  width: 310px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+.Ana,
+.Tom {
+  display: flex;
+  flex-direction: column;
+}
+
+#Ana,
+#Tom {
+  width: 500px;
+  height: 350px;
+  border: black 1px solid;
+  // border-radius: 30%;
+}

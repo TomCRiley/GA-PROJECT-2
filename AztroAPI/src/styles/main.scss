@@ -3,23 +3,6 @@
 
 @import './navbar.scss';
 @import './home.scss';
-@import './dropdown.scss'; // .dh-section {
-//   display: flex;
-//   justify-content: center;
-// }
-
-// .dh-container {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   background-color: darkgrey;
-//   padding: 30px;
-//   margin: 30px;
-//   border-radius: 30px;
-// }
-
-// .dh-today {
-//   font-family: 'Ultra', serif;
-//   font-size: 40px;
-//   color: wheat;
-// }
+@import './dropdown.scss';
+@import './dailyhoroscope.scss';
+@import './about.scss';
