@@ -37,7 +37,7 @@ const About = () => {
             <img id='Tom' src={ImageTom} alt='Tom'></img>
           </div>
           <p>
-            Tom is a dreamer who likes inventing things in his head. Then he
+            Tom is a day-dreamer who likes inventing things in his head. Then he
             went to a coding bootcamp, so now he can put them on the internet.
           </p>
           <p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ArrowImage from '../assets/downwardarrow.png';
 
 const Home = () => {
   return (
@@ -9,6 +10,9 @@ const Home = () => {
           <h2 id='main-tagline'>
             Ever wondered what the stars have in store for you?
           </h2>
+        </div>
+        <div className='arrow'>
+          <img src={ArrowImage} alt='arrow' />
         </div>
       </div>
     </section>

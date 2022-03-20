@@ -21,9 +21,9 @@ const DailyHoroscope = () => {
   const [sign, setSign] = React.useState('');
   const [horoscope, setHoroscope] = React.useState(null);
 
-  const getRequestUrl = (starSign) => {
-    setSign(starSign);
-  };
+  // const getRequestUrl = (starSign) => { //set user sign
+  //   setSign(starSign);
+  // };
 
   React.useEffect(() => {
     if (sign) {
@@ -39,26 +39,12 @@ const DailyHoroscope = () => {
   return (
     <div>
       <Dropdown
-        handleClick={getRequestUrl}
+        handleClick={setSign}
         formLabel='Choose a sign'
         buttonText='Send sign'
         action='/'
         signs={signs}
-      >
-        <option selected value='Click to see options' />
-        <option value='Aries' />
-        <option value='Taurus' />
-        <option value='Gemini' />
-        <option value='Cancer' />
-        <option value='Leo' />
-        <option value='Virgo' />
-        <option value='Libra' />
-        <option value='Scorpio' />
-        <option value='Sagittarius' />
-        <option value='Capricorn' />
-        <option value='Aquarius' />
-        <option value='Pisces' />
-      </Dropdown>
+      ></Dropdown>
       <div className='card'>
         <div>
           {!!horoscope && (
