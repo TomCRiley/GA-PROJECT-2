@@ -1,6 +1,7 @@
 import React from 'react';
 import Dropdown from './Dropdown';
 import { getSingleSign } from '../lib/api';
+import Footer from './Footer';
 
 const signs = [
   'Aries',
@@ -37,62 +38,65 @@ const DailyHoroscope = () => {
   }, [sign]);
 
   return (
-    <div>
-      <Dropdown
-        handleClick={setSign}
-        formLabel='Choose a sign'
-        buttonText='Send sign'
-        action='/'
-        signs={signs}
-      ></Dropdown>
-      <div className='card'>
-        <div>
-          {!!horoscope && (
-            <p>
-              {' '}
-              <strong>Date range:</strong> {horoscope.date_range}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              {' '}
-              <strong>Today's date:</strong> {horoscope.current_date}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              {' '}
-              <strong>Description:</strong> {horoscope.description}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              <strong>Sign compatibility:</strong> {horoscope.compatibility}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              <strong>Mood for today:</strong> {horoscope.mood}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              <strong>Color of today:</strong> {horoscope.color}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              <strong>Lucky number:</strong> {horoscope.lucky_number}
-            </p>
-          )}
-          {!!horoscope && (
-            <p>
-              <strong>Lucky time:</strong> {horoscope.lucky_time}
-            </p>
-          )}
+    <section className='hero is-fullheight-with-navbar hero-background'>
+      <div>
+        <Dropdown
+          handleClick={setSign}
+          formLabel='Choose a sign'
+          buttonText='Send sign'
+          action='/'
+          signs={signs}
+        ></Dropdown>
+        <div className='card'>
+          <div>
+            {!!horoscope && (
+              <p>
+                {' '}
+                <strong>Date range:</strong> {horoscope.date_range}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                {' '}
+                <strong>Today's date:</strong> {horoscope.current_date}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                {' '}
+                <strong>Description:</strong> {horoscope.description}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                <strong>Sign compatibility:</strong> {horoscope.compatibility}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                <strong>Mood for today:</strong> {horoscope.mood}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                <strong>Color of today:</strong> {horoscope.color}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                <strong>Lucky number:</strong> {horoscope.lucky_number}
+              </p>
+            )}
+            {!!horoscope && (
+              <p>
+                <strong>Lucky time:</strong> {horoscope.lucky_time}
+              </p>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </section>
   );
 };
 

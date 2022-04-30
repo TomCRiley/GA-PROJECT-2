@@ -1,5 +1,7 @@
 import React from 'react';
 import ArrowImage from '../assets/downwardarrow.png';
+import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -14,7 +16,14 @@ const Home = () => {
         <div className='arrow'>
           <img src={ArrowImage} alt='arrow' />
         </div>
+        <div>
+          <h3>Click below to get today's horoscope</h3>
+          <Link class='button is-large is-responsive' to='/dailyhoroscope'>
+            Click me!
+          </Link>
+        </div>
       </div>
+      <Footer />
     </section>
   );
 };

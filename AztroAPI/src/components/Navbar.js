@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand'>
-        <div className='logo-navbar'>
+        <div className='logo-navbar moon'>
           <img src={Image} alt='logo' />
         </div>
         <a

@@ -3,8 +3,8 @@
 }
 
 #button-dropdown {
-  background-color: rgba(14, 14, 40, 0.975);
-  color: #dedede;
+  background-color: rgba(243, 236, 227, 1);
+  color: rgba(14, 14, 40, 0.975);
   border: none;
   font-family: 'Ultra', serif;
   font-size: 16px;
@@ -18,4 +18,8 @@
   justify-content: center;
   font-family: 'Ultra', serif;
   margin: 30px;
+}
+
+.card {
+  background-color:rgba(243, 236, 227, 1) ;
 }
