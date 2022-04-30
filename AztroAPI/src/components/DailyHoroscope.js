@@ -22,10 +22,6 @@ const DailyHoroscope = () => {
   const [sign, setSign] = React.useState('');
   const [horoscope, setHoroscope] = React.useState(null);
 
-  // const getRequestUrl = (starSign) => { //set user sign
-  //   setSign(starSign);
-  // };
-
   React.useEffect(() => {
     if (sign) {
       async function getData(params) {
