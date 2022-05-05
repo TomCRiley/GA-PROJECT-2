@@ -2,6 +2,7 @@ import React from 'react';
 import ImageAna from '../assets/Ana.jpg';
 import ImageTom from '../assets/Tom.jpg';
 
+//about page
 const About = () => {
   return (
     <div className='about'>
