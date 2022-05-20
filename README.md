@@ -118,6 +118,6 @@ We also would like to have had a better implementation of the data that [Aztro A
 
 
 ## More about me
-You can find me at www.tomriley.dev where I maintain all my live portfolio projects. You can also contact me [‘mailto:hello@tomriley.dev’] 
+You can find me at www.tomriley.dev where I maintain all my live portfolio projects. You can also email me ➡️[📧(click me!)](mailto:hello@tomriley.dev)⬅️  
 
-I’m a junior software engineer with a whole lot of love for tech and learning. Connect with me on LinkedIn! 
+I’m a junior software engineer with a whole lot of love for tech and learning. Connect with me on [LinkedIn](https://www.linkedin.com/in/tomcriley/)!
