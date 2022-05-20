@@ -99,19 +99,25 @@ Moonly.app has an inspired 70s aesthetic - Sabrina the Teenage Witch is what fir
 
 <img width="832" alt="159166615-d05a7b31-61a1-410e-8f38-00b6166be0d8" src="https://user-images.githubusercontent.com/97558359/168841071-7b7e6b64-664c-4082-83a0-766690eb11eb.png">
 Above, moonly.app
+Using a combination of standups and Trello in the limited timeframe, we managed to meld these two concepts and came up with /Star Finder/. 
 
-We tried our best in the limited time to meld these two concepts and came up with /Star Finder/.
 
-### Main takeaways
-This was my first time using Git for a proper collaborative project. Defining a workflow took time in itself, with each of us building separate components and then pushing and merging with git source control. It was an extremely valuable lesson in how to collaborate on a project together remotely.
-
-### Things we’d do differently
+### Wins & Challenges
 We used [Bulma.io](http://Bulma.io) for our CSS framework in the hopes it would speed up the development of our front end structure so that we could focus on the main task of the logic and API integrations. Although Bulma’s documentation is very beginner friendly and highly legible, using a framework for the first time proved a big mountain to climb and we found it difficult to quickly build out the skeleton of the website. 
 
 Media queries are absolutely vital and are not a 5 minute job! A consideration for next time; do we want to build mobile first? A horoscope website might have a more mobile user base.
+
+This was my first time using Git for a proper collaborative project. Defining a workflow took time in itself, with each of us building separate components and then pushing and merging with git source control. It was an extremely valuable lesson in how to collaborate on a project together remotely.
+
+It was a great experience and we had so many wins including learning proper version control with Git, learning how to deploy with Netlify and pair-programming. React already feels familiar due to the way we learnt to build in individual features across components and then merge the code. 
 
 ### Stretch goals
 At the time of writing, we don’t have a working login and register function - we simply didn’t have the time to implement these features.
 
 We also would like to have had a better implementation of the data that [Aztro API](https://aztro.sameerkumar.website/) gave us. Right now, the data is in a simple drop down menu, but we could spread much of it across an entire web page, or as per our excalidraw wireframing, we could have a card interface with yesterday and tomorrow’s horoscopes on a carousel for the user to interact with.
 
+
+## More about me
+You can find me at www.tomriley.dev where I maintain all my live portfolio projects. You can also contact me [‘mailto:hello@tomriley.dev’] 
+
+I’m a junior software engineer with a whole lot of love for tech and learning. Connect with me on LinkedIn! 
